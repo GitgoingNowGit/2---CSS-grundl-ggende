@@ -1,0 +1,45 @@
+body{
+    color: white;
+    background: hsl(194, 100%, 31%)
+}
+
+.container{
+    max-width: 1000px;
+    padding: 1.5rem;
+}
+.title{
+    color: white;
+    background: hsl(194, 100%, 31%);
+}
+table,
+td{
+    border-collapse: collapse;
+    border: 2px solid;
+    border-color: white;
+    background: #ccc;
+    color: black;
+    width: 500px;
+}
+img{
+    display: block;
+    margin: auto;
+}
+.nav{
+    padding-left: 10px;
+    list-style-type: none;
+    text-align: justify;
+}
+.nav li{
+    display: inline-block;
+}
+a{
+    margin-right: 35px;
+    color: hsl(194, 100%, 70%);
+}
+a:hover{
+    color: hsla(184, 44%, 73%, 0.836);
+}
+a:active{
+    color: blue;
+    cursor: progress;
+}

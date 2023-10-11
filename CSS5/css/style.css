@@ -1,0 +1,74 @@
+html{
+    font-size: 62.5%;
+    font-family: Verdana, Tahoma, sans-serif;
+    background-color: rgb(55,55,55);
+}
+div.list{
+    padding: 1%;
+    background: #292d7b;
+    color: white;
+    width: 500px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+h5{
+    font-size: 1.5rem;
+    color: #9497db;
+}
+#what{
+    cursor: grab;
+    color: white;
+    text-decoration-line: none;
+}
+h4{
+    color: #d7752c;
+    font-size: 2rem;
+    text-align: center;
+}
+ul{
+    
+    list-style-image: url(/CSS5/img/Untitled.png);
+}
+
+table{
+    width: 2000px
+
+}
+p{
+    user-select: none;
+    font-size: 2.5rem;
+    color: rgb(55, 55, 55);
+}
+.table, td{
+    font-size: 2.8rem;
+    width:400px;
+    overflow-x: auto;
+    border: 3px solid;
+    border-color: black;
+    color: rgb(214, 206, 196);
+}
+.selective:hover{
+    background: rgb(130, 130, 135);
+    transition: 300ms;
+}
+#header{
+    background: #292d7b;
+    color: white;
+}
+
+@media (prefers-color-scheme: light) {
+    html{
+      background-color: white;
+      color: black;
+    }
+    .table, td{
+        color: rgb(0, 0, 0);
+    }
+    th{
+        color:white;
+    }
+    .selective:hover{
+        background: rgb(169, 164, 164);
+        transition: 300ms;
+    }
+}

@@ -1,0 +1,27 @@
+body{background-image: url(/CSS4/img/background.png);color: white;}
+h2{background-color: #800080;background-image: url(/CSS4/img/Capture.PNG)}
+h3{background-color: black;}
+
+h2.one{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 2.25rem;
+}
+h2.two{
+    background-size: contain;
+}
+h2.three{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h2.four{
+    background-size: cover;
+    background-position: center;
+}
+div.box{
+    background-image: url(https://images.nightcafe.studio/jobs/yE8yvwniVoYochDNWGrU/yE8yvwniVoYochDNWGrU--4--w9a3v.jpg?tr=w-1600,c-at_max);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}

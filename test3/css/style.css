@@ -1,0 +1,57 @@
+body{
+    background: rgb(55,55,55);
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    padding: 10px;
+    font-size: 3rem;
+}
+div{
+    padding: 100px;
+}
+a{
+    font-size: 1.2rem;
+    text-decoration-line: none;
+    color: green;
+    background: rgb(10, 69, 10);
+    padding: 22px;
+    border: 12.5px solid;
+    border-color: rgb(5, 56, 10);
+}
+
+a:link{
+    border-color: rgb(5,56,10);
+    border-style: solid;
+    transition: 350ms;
+}
+
+a:hover{
+    font-size: 30px;
+    font-weight: bold;
+    font-style:oblique;
+    background: rgb(17, 100, 17);
+    padding: 25px;
+    color: rgb(45, 224, 45);
+    border-top-style: dashed;
+    border-bottom-style: dashed;
+    border-color: rgb(24, 188, 24);
+    transition: 350ms;
+}
+a:active{
+    background: rgb(97, 12, 12);
+    border-color: rgb(160, 32, 32);
+    padding: 20px;
+    font-size: 25px;
+    font-weight: lighter;
+    color: rgb(225, 12, 12);
+    text-decoration-color: rgb(239, 7, 7);
+    text-decoration-line: underline;
+    text-decoration-thickness: 10px;
+    cursor: progress;
+    transition: 250ms;
+}
+img#thing{
+    margin: -3.2px;
+    margin-left: 7px;
+    width:1.7rem;
+}
